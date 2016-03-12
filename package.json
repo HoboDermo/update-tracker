@@ -1,0 +1,35 @@
+{
+  "name": "update-tracker",
+  "version": "0.1.0",
+  "description": "A simple update tracker with pub/sub",
+  "main": "update-tracker.js",
+  "scripts": {
+    "prepublish": "uglifyjs -o update-tracker.min.js update-tracker.js",
+    "test": "mocha tests.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HoboDermo/update-tracker.git"
+  },
+  "engines" : {
+    "node" : ">=0.10"
+  },
+  "keywords": [
+    "update",
+    "updates",
+    "updateTracker",
+    "tracker",
+    "subscribe",
+    "publish"
+  ],
+  "author": "HoboDermo <hobodermo@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/HoboDermo/update-tracker/issues"
+  },
+  "homepage": "https://github.com/HoboDermo/update-tracker#readme",
+  "devDependencies": {
+    "mocha": "*",
+    "uglify-js": "*"
+  }
+}
