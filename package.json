@@ -1,6 +1,6 @@
 {
   "name": "update-tracker",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A simple update tracker with pub/sub",
   "main": "update-tracker.js",
   "scripts": {
