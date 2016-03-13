@@ -21,7 +21,7 @@ function UpdateTracker() {
       description: description,
       data: data,
       isPrivate: !!isPrivate
-    }
+    };
     updates.push(update);
     if(!isPrivate) {
       publish(update);
